@@ -1,4 +1,8 @@
 # daily-service
+
+It might be a need some study for git. :) 
+
+
 hahahaha
 Commit testing from Jinsu
 
