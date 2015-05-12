@@ -1,8 +1,8 @@
 # daily-service
+Commit testing from Jinsu
 
 This project provides home daily service in Korean.
 Please enjoy with us.
 Jinsu
 
-Commit testing from Jinsu
 
