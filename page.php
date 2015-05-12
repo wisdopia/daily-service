@@ -264,13 +264,12 @@ $articleText = iconv( "EUC-KR", "UTF-8", $articleText);
 echo "<h2>" . $meta_title . "</h2><br>";
 echo $praiseBibleText . "<br>";
 
+$songPath = "/songs/" . $songInfo->num . ".JPG";
+echo "<img width=100% src=\"" . $songPath . "\"><br>";
+
 echo "<br>";
 echo $bibleText . "<br>";
 echo "<br><br>";
-
-
-$songPath = "/songs/" . $songInfo->num . ".JPG";
-echo "<img width=100% src=\"" . $songPath . "\"><br>";
 
 echo "<br>";
 echo $articleText . "<br>";
