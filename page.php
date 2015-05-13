@@ -111,6 +111,9 @@ function getBibleInfo(&$header)
 
     // Remove "장"
     $pos = mb_strpos($info->chapter, "장");
+    if ($pos === false){
+        $pos = mb_strpos($info->chapter, "편");
+    }
     $textSize = mb_strlen($info->chapter); 
     $info->chapter = mb_substr($info->chapter, 0, $pos);
 
